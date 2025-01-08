@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mjolo Flags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #6a0dad; /* Sophisticated purple */
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .intro {
+            text-align: center;
+        }
+        .intro p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .button {
+            padding: 0.8rem 1.5rem;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #6a0dad;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #590ba5;
+        }
+        .button.red {
+            background-color: #e63946;
+        }
+        .button.red:hover {
+            background-color: #c12539;
+        }
+        .button.green {
+            background-color: #2a9d8f;
+        }
+        .button.green:hover {
+            background-color: #21897a;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #6a0dad;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mjolo Flags</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <p>Welcome to Mjolo Flags! Describe your partner's behavior, take a quick quiz, or chat with our bot to discover whether their actions are red flags, green flags, or beige flags. Let us help you make informed dating decisions!</p>
+        </section>
+        <div class="buttons">
+            <button class="button">Analyze Behavior</button>
+            <button class="button green">Take the Quiz</button>
+            <button class="button red">Chat with Bot</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Mjolo Flags | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
